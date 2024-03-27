@@ -11,7 +11,7 @@ public class ZZTools : NSObject {
     
     public static let sharedInstance: ZZTools = ZZTools()
     
-    func showMessage(msg:String) -> String{
+    public func showMessage(msg:String) -> String{
         print("调用了工具类\(msg)")
         return msg
     }
