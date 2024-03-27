@@ -1,0 +1,6 @@
+framework module zzylib {
+  umbrella header "zzylib-umbrella.h"
+
+  export *
+  module * { export * }
+}

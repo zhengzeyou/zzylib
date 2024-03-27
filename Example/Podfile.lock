@@ -1,0 +1,41 @@
+PODS:
+  - CTMediator (48)
+  - MJRefresh (3.7.6)
+  - RxCocoa (6.6.0):
+    - RxRelay (= 6.6.0)
+    - RxSwift (= 6.6.0)
+  - RxRelay (6.6.0):
+    - RxSwift (= 6.6.0)
+  - RxSwift (6.6.0)
+  - zzylib (0.1.0):
+    - CTMediator
+    - MJRefresh
+    - RxCocoa
+    - RxSwift
+
+DEPENDENCIES:
+  - zzylib (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CTMediator
+    - MJRefresh
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+EXTERNAL SOURCES:
+  zzylib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CTMediator: 3f3578b525b3a46a7a2f92a99922ec40363f4269
+  MJRefresh: 2fe7fb43a5167ceda20bb7e63f130c04fd1814a5
+  RxCocoa: 44a80de90e25b739b5aeaae3c8c371a32e3343cc
+  RxRelay: 45eaa5db8ee4fb50e5ebd57deec0159e97fa51e6
+  RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
+  zzylib: 622b9bcd68dc0f7df7b75f2a88eafc6fd6a89cfe
+
+PODFILE CHECKSUM: a9f7697a935021ba777e1f1705970fcf6c31d42b
+
+COCOAPODS: 1.15.2

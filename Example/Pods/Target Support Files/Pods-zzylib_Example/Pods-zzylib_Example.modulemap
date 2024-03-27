@@ -1,0 +1,6 @@
+framework module Pods_zzylib_Example {
+  umbrella header "Pods-zzylib_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
