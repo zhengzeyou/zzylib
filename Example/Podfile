@@ -10,6 +10,5 @@ target 'zzylib_Example' do
   pod 'zzylib', :path => '../'
   target 'zzylib_Tests' do
     inherit! :search_paths
-    
   end
 end
