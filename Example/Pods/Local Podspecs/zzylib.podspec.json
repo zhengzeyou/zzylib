@@ -1,6 +1,6 @@
 {
   "name": "zzylib",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "A short description of zzylib.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/zhengzeyou/zzylib",
@@ -13,17 +13,12 @@
   },
   "source": {
     "git": "https://github.com/zhengzeyou/zzylib.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "11.0"
   },
   "source_files": "zzylib/Classes/**/*",
-  "resource_bundles": {
-    "zzylib": [
-      "zzylib/Assets/*.xcassets"
-    ]
-  },
   "dependencies": {
     "CTMediator": [
 

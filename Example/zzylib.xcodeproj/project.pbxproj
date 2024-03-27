@@ -18,6 +18,7 @@
 		90A73B9D2BB3B93100F933A7 /* ZZLibRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A73B972BB3B93100F933A7 /* ZZLibRouter.swift */; };
 		90A73B9E2BB3B93100F933A7 /* ZZRouterUti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A73B982BB3B93100F933A7 /* ZZRouterUti.swift */; };
 		90A73B9F2BB3B93100F933A7 /* ZZBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A73B9A2BB3B93100F933A7 /* ZZBaseViewController.swift */; };
+		90A73BA32BB3F18900F933A7 /* ZZTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A73BA22BB3F18900F933A7 /* ZZTools.swift */; };
 		DBA10E58275B4C03E477C7A0 /* Pods_zzylib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BF48AC6A9849B1A332E5C9 /* Pods_zzylib_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		90A73B972BB3B93100F933A7 /* ZZLibRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZLibRouter.swift; sourceTree = "<group>"; };
 		90A73B982BB3B93100F933A7 /* ZZRouterUti.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZRouterUti.swift; sourceTree = "<group>"; };
 		90A73B9A2BB3B93100F933A7 /* ZZBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZBaseViewController.swift; sourceTree = "<group>"; };
+		90A73BA22BB3F18900F933A7 /* ZZTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZTools.swift; sourceTree = "<group>"; };
 		D0665D6280C00F506BA6DB7B /* Pods-zzylib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zzylib_Tests.release.xcconfig"; path = "Target Support Files/Pods-zzylib_Tests/Pods-zzylib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D2746CBB13D4BF6E52465EA2 /* Pods-zzylib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zzylib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-zzylib_Tests/Pods-zzylib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -192,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				90A73B9A2BB3B93100F933A7 /* ZZBaseViewController.swift */,
+				90A73BA22BB3F18900F933A7 /* ZZTools.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 			files = (
 				90A73B9E2BB3B93100F933A7 /* ZZRouterUti.swift in Sources */,
 				90A73B9D2BB3B93100F933A7 /* ZZLibRouter.swift in Sources */,
+				90A73BA32BB3F18900F933A7 /* ZZTools.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				90A73B9C2BB3B93100F933A7 /* Target_zzy.swift in Sources */,

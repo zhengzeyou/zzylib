@@ -26,7 +26,6 @@ class ViewController: UIViewController {
         super.touchesBegan(touches, with: event)
         
         if let vc = CTMediator.sharedInstance().ZZBaseViewController_show() {
-            
             self.present(vc, animated: true)
 
         }
