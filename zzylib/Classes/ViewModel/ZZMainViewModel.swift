@@ -1,5 +1,5 @@
 //
-//  mainViewModel.swift
+//  ZZMainViewModel.swift
 //  zzylib_Example
 //
 //  Created by 花开 on 2024/3/27.
@@ -11,8 +11,11 @@ import RxSwift
 import RxCocoa
 import RxRelay
 
-class mainViewModel {
-//    let tableSubject : BehaviorRelay<> = BehaviorRelay(value: <#T##_#>)
+class ZZMainViewModel {
+    
+    static let cellID:String = "cell_id"
+    
+    let tableSubject : BehaviorRelay<[ZZMainModel]> = BehaviorRelay(value: [])
     
     
 }

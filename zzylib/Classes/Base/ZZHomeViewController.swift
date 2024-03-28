@@ -1,5 +1,5 @@
 //
-//  ZZBaseViewController.swift
+//  ZZHomeViewController.swift.swift
 //  Pods
 //
 //  Created by 花开 on 2024/3/26.
@@ -11,7 +11,7 @@ import RxRelay
 import RxCocoa
 import SnapKit
 
-class ZZBaseViewController : UIViewController {
+class ZZHomeViewController : UIViewController {
     let disposeBag = DisposeBag()
     
     let tableListView : ZZMainListView = ZZMainListView()
@@ -19,7 +19,6 @@ class ZZBaseViewController : UIViewController {
      override func viewDidLoad() {
         super.viewDidLoad()
         
-         self.view.backgroundColor = UIColor(hexString: "#FEFEFE")
         initlizeSetting()
         contructConstraints()
     
@@ -28,7 +27,7 @@ class ZZBaseViewController : UIViewController {
 }
 
 
-extension ZZBaseViewController {
+extension ZZHomeViewController {
     private func initlizeSetting(){
         view.addSubview(tableListView)
     

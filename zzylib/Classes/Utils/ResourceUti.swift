@@ -6,4 +6,14 @@
 //  Copyright © 2024 CocoaPods. All rights reserved.
 //
 
-import Foundation
+import UIKit
+enum zzylibEnum : String {
+
+    case learningFilesPptIcon = "learning_files_ppt_icon"
+    
+    var image : UIImage? {
+        return UIImage(named: self.rawValue)
+    }
+    
+}
+ 

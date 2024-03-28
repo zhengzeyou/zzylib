@@ -9,11 +9,8 @@ import UIKit
 
 @objc class Target_zzy: NSObject {
     
-    @objc func Action_ZZBaseViewController(_ parmas : [AnyHashable : Any]) -> UIViewController {
-        let controller = ZZBaseViewController()
+    @objc func Action_homeViewController(_ parmas : [AnyHashable : Any]) -> UIViewController {
+        let controller = ZZHomeViewController()
         return controller
     }
-    
-   
-    
 }

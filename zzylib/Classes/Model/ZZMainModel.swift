@@ -7,3 +7,8 @@
 //
 
 import Foundation
+struct ZZMainModel : Codable {
+    let name: String
+    let age : Int
+    let introduce :String
+}

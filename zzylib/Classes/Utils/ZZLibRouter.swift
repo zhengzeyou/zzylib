@@ -14,8 +14,8 @@ fileprivate let targetName: String = "zzy"
 public extension CTMediator {
     
     ///
-    @objc func  ZZBaseViewController_show() -> UIViewController? {
-        guard let viewController = self.performTarget(targetName, action: "ZZBaseViewController", params: MLSRRouterUti.getFinalParams(moduleName: moduleName, params: nil), shouldCacheTarget: false) as? UIViewController else { return nil }
+    @objc func  homeViewController_show() -> UIViewController? {
+        guard let viewController = self.performTarget(targetName, action: "homeViewController", params: MLSRRouterUti.getFinalParams(moduleName: moduleName, params: nil), shouldCacheTarget: false) as? UIViewController else { return nil }
         return viewController
     }
     

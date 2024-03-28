@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'zzylib'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'A short description of zzylib.'
 
  
@@ -15,7 +15,9 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yunbo' => '329604646@qq.com' }
   s.source           = { :git => 'https://github.com/zhengzeyou/zzylib.git', :tag => s.version.to_s }
-
+  s.resource_bundles = {
+    'zzylib' => ['zzylib/Assets/*.xcassets', "zzylib/Assets/gif/*"]
+  }
   s.ios.deployment_target = '11.0'
 
   s.source_files = 'zzylib/Classes/**/*'
@@ -24,6 +26,7 @@ TODO: Add long description of the pod here.
   s.dependency 'RxSwift'
   s.dependency 'RxCocoa'
   s.dependency 'MJRefresh'
-  
+  s.dependency 'SnapKit'
+
 
 end
