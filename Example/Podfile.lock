@@ -7,11 +7,13 @@ PODS:
   - RxRelay (6.6.0):
     - RxSwift (= 6.6.0)
   - RxSwift (6.6.0)
-  - zzylib (0.1.2):
+  - SnapKit (5.6.0)
+  - zzylib (0.1.4):
     - CTMediator
     - MJRefresh
     - RxCocoa
     - RxSwift
+    - SnapKit
 
 DEPENDENCIES:
   - zzylib (from `../`)
@@ -23,6 +25,7 @@ SPEC REPOS:
     - RxCocoa
     - RxRelay
     - RxSwift
+    - SnapKit
 
 EXTERNAL SOURCES:
   zzylib:
@@ -34,7 +37,8 @@ SPEC CHECKSUMS:
   RxCocoa: 44a80de90e25b739b5aeaae3c8c371a32e3343cc
   RxRelay: 45eaa5db8ee4fb50e5ebd57deec0159e97fa51e6
   RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
-  zzylib: f95e8f69376d898b28c8fb8219ac5456990927a9
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  zzylib: 69c634340c9ff2a986c1eab101ecc1ca13cdc509
 
 PODFILE CHECKSUM: 16e01c52b52bb157acf683c3b18ec8d4cec41db5
 

@@ -17,8 +17,14 @@
 		90A73B9C2BB3B93100F933A7 /* Target_zzy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A73B962BB3B93100F933A7 /* Target_zzy.swift */; };
 		90A73B9D2BB3B93100F933A7 /* ZZLibRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A73B972BB3B93100F933A7 /* ZZLibRouter.swift */; };
 		90A73B9E2BB3B93100F933A7 /* ZZRouterUti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A73B982BB3B93100F933A7 /* ZZRouterUti.swift */; };
-		90A73B9F2BB3B93100F933A7 /* ZZBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A73B9A2BB3B93100F933A7 /* ZZBaseViewController.swift */; };
+		90A73B9F2BB3B93100F933A7 /* ZZHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A73B9A2BB3B93100F933A7 /* ZZHomeViewController.swift */; };
 		90A73BA32BB3F18900F933A7 /* ZZTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A73BA22BB3F18900F933A7 /* ZZTools.swift */; };
+		90A73BF22BB4069800F933A7 /* zzylib.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90A73BF12BB4069800F933A7 /* zzylib.xcassets */; };
+		90A73BF42BB40EE200F933A7 /* ResourceUti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A73BF32BB40EE200F933A7 /* ResourceUti.swift */; };
+		90A73BF72BB41E4200F933A7 /* ZZMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A73BF62BB41E4200F933A7 /* ZZMainViewModel.swift */; };
+		90A73BFA2BB41F2500F933A7 /* ZZMainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A73BF92BB41F2500F933A7 /* ZZMainModel.swift */; };
+		90A73BFD2BB4205B00F933A7 /* ZZMainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A73BFC2BB4205B00F933A7 /* ZZMainListView.swift */; };
+		90A73C002BB423FC00F933A7 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A73BFF2BB423FC00F933A7 /* UIColor+Extension.swift */; };
 		DBA10E58275B4C03E477C7A0 /* Pods_zzylib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BF48AC6A9849B1A332E5C9 /* Pods_zzylib_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,8 +59,14 @@
 		90A73B962BB3B93100F933A7 /* Target_zzy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Target_zzy.swift; sourceTree = "<group>"; };
 		90A73B972BB3B93100F933A7 /* ZZLibRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZLibRouter.swift; sourceTree = "<group>"; };
 		90A73B982BB3B93100F933A7 /* ZZRouterUti.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZRouterUti.swift; sourceTree = "<group>"; };
-		90A73B9A2BB3B93100F933A7 /* ZZBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZBaseViewController.swift; sourceTree = "<group>"; };
+		90A73B9A2BB3B93100F933A7 /* ZZHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZHomeViewController.swift; sourceTree = "<group>"; };
 		90A73BA22BB3F18900F933A7 /* ZZTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZTools.swift; sourceTree = "<group>"; };
+		90A73BF12BB4069800F933A7 /* zzylib.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = zzylib.xcassets; sourceTree = "<group>"; };
+		90A73BF32BB40EE200F933A7 /* ResourceUti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceUti.swift; sourceTree = "<group>"; };
+		90A73BF62BB41E4200F933A7 /* ZZMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZMainViewModel.swift; sourceTree = "<group>"; };
+		90A73BF92BB41F2500F933A7 /* ZZMainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZMainModel.swift; sourceTree = "<group>"; };
+		90A73BFC2BB4205B00F933A7 /* ZZMainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZMainListView.swift; sourceTree = "<group>"; };
+		90A73BFF2BB423FC00F933A7 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		D0665D6280C00F506BA6DB7B /* Pods-zzylib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zzylib_Tests.release.xcconfig"; path = "Target Support Files/Pods-zzylib_Tests/Pods-zzylib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D2746CBB13D4BF6E52465EA2 /* Pods-zzylib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zzylib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-zzylib_Tests/Pods-zzylib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,6 +135,7 @@
 		607FACD21AFB9204008FA782 /* Example for zzylib */ = {
 			isa = PBXGroup;
 			children = (
+				90A73BEC2BB404B800F933A7 /* Assets */,
 				90A73B932BB3B93100F933A7 /* Classes */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
@@ -173,6 +186,10 @@
 		90A73B932BB3B93100F933A7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				90A73BFE2BB423D300F933A7 /* Extension */,
+				90A73BFB2BB4202700F933A7 /* ViewCell */,
+				90A73BF82BB41ED000F933A7 /* Model */,
+				90A73BF52BB41E1D00F933A7 /* ViewModel */,
 				90A73B952BB3B93100F933A7 /* Utils */,
 				90A73B992BB3B93100F933A7 /* Base */,
 			);
@@ -186,6 +203,7 @@
 				90A73B962BB3B93100F933A7 /* Target_zzy.swift */,
 				90A73B972BB3B93100F933A7 /* ZZLibRouter.swift */,
 				90A73B982BB3B93100F933A7 /* ZZRouterUti.swift */,
+				90A73BF32BB40EE200F933A7 /* ResourceUti.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -193,10 +211,51 @@
 		90A73B992BB3B93100F933A7 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				90A73B9A2BB3B93100F933A7 /* ZZBaseViewController.swift */,
+				90A73B9A2BB3B93100F933A7 /* ZZHomeViewController.swift */,
 				90A73BA22BB3F18900F933A7 /* ZZTools.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		90A73BEC2BB404B800F933A7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				90A73BF12BB4069800F933A7 /* zzylib.xcassets */,
+			);
+			name = Assets;
+			path = ../../zzylib/Assets;
+			sourceTree = "<group>";
+		};
+		90A73BF52BB41E1D00F933A7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				90A73BF62BB41E4200F933A7 /* ZZMainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		90A73BF82BB41ED000F933A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				90A73BF92BB41F2500F933A7 /* ZZMainModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		90A73BFB2BB4202700F933A7 /* ViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				90A73BFC2BB4205B00F933A7 /* ZZMainListView.swift */,
+			);
+			path = ViewCell;
+			sourceTree = "<group>";
+		};
+		90A73BFE2BB423D300F933A7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				90A73BFF2BB423FC00F933A7 /* UIColor+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +349,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				90A73BF22BB4069800F933A7 /* zzylib.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +419,7 @@
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/zzylib/zzylib.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -368,6 +429,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/zzylib.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,11 +446,16 @@
 			files = (
 				90A73B9E2BB3B93100F933A7 /* ZZRouterUti.swift in Sources */,
 				90A73B9D2BB3B93100F933A7 /* ZZLibRouter.swift in Sources */,
+				90A73BFD2BB4205B00F933A7 /* ZZMainListView.swift in Sources */,
+				90A73C002BB423FC00F933A7 /* UIColor+Extension.swift in Sources */,
 				90A73BA32BB3F18900F933A7 /* ZZTools.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				90A73B9C2BB3B93100F933A7 /* Target_zzy.swift in Sources */,
-				90A73B9F2BB3B93100F933A7 /* ZZBaseViewController.swift in Sources */,
+				90A73BFA2BB41F2500F933A7 /* ZZMainModel.swift in Sources */,
+				90A73BF72BB41E4200F933A7 /* ZZMainViewModel.swift in Sources */,
+				90A73BF42BB40EE200F933A7 /* ResourceUti.swift in Sources */,
+				90A73B9F2BB3B93100F933A7 /* ZZHomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

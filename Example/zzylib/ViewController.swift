@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
         
-        if let vc = CTMediator.sharedInstance().ZZBaseViewController_show() {
+        if let vc = CTMediator.sharedInstance().homeViewController_show() {
             self.present(vc, animated: true)
 
         }

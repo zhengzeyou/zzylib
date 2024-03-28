@@ -1,6 +1,6 @@
 {
   "name": "zzylib",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "summary": "A short description of zzylib.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/zhengzeyou/zzylib",
@@ -13,7 +13,13 @@
   },
   "source": {
     "git": "https://github.com/zhengzeyou/zzylib.git",
-    "tag": "0.1.2"
+    "tag": "0.1.4"
+  },
+  "resource_bundles": {
+    "zzylib": [
+      "zzylib/Assets/*.xcassets",
+      "zzylib/Assets/gif/*"
+    ]
   },
   "platforms": {
     "ios": "11.0"
@@ -30,6 +36,9 @@
 
     ],
     "MJRefresh": [
+
+    ],
+    "SnapKit": [
 
     ]
   }
